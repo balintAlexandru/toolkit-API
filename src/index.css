@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-align: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.container{
+  margin: auto;
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.person-card{
+  background-color: white;
+  width: 250px;
+  height: 170px;
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 40px;
+}
+.person-buttons button{
+  margin: 10px 5px 0 5px;
+  padding: 10px;
+  border:2px solid orange;
+  background-color: transparent;
+  cursor: pointer;
+}
+.person-buttons button:hover{
+  background-color: orange;
+}
+.create-button{
+  margin-top: 50px;
+}
+.create-button button{
+  color: white;
+  padding: 10px;
+  border:2px solid orange;
+  background-color: transparent;
+  cursor: pointer;
+}
+.create-button button:hover{
+  background-color: orange;
+}
+.form-container{
+  width: 500px;
+  height: 700px;
+  background-color: rgb(180, 117, 39);
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+.form-create{
+  display: flex;
+  flex-direction: column;
+  padding: 110px;
+}
+.exit button{
+  padding: 10px;
+  margin: 10px;
+  cursor:pointer;
+}
+.form-create button{
+  padding: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+label{
+  margin-top: 20px;
+}
+input{
+  height: 40px;
+}
+.delete-layout{
+  width: 500px;
+  height: 300px;
+  background-color: rgb(180, 117, 39);
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+.delete-layout h1{
+  margin-top: 30px;
+}
+.delete-buttons{
+  display: flex;
+  justify-content: center;
+}
+.delete-buttons button{
+  padding: 10px;
+  margin:40px 5px 0px 5px;
+  cursor: pointer;
+}
